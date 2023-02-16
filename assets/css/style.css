@@ -1,0 +1,308 @@
+/*======= Google Font =====*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lexend+Deca&family=Livvic:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*======= Root All Button Color And Body Reset =======*/
+.btn-sky{
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	border: 1px solid #a1c4fd;
+}
+.btn-sky:hover{
+	background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+body{
+	font-family: 'Livvic', sans-serif;
+    padding-top: 0rem !important;
+    
+}
+html{
+	scroll-behavior: smooth;
+}
+/*======= Start Navigation (Navbar) Styling  =======*/
+.sticky{
+	background-color: #fff;
+}
+
+
+/*======= Start Main Page (Topbar) Heading =========*/
+.topbar-content{
+	background: url(../img/header-img.jpg), no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 80vh;
+	/* padding-top: 15rem !important; */
+}
+
+.topbar-content h1 {
+    font-size: 2em;
+    font-weight: 900;
+    line-height: 1;
+	color: #fff;
+}
+
+.topbar-content h3{
+	font-family: 'Abel', sans-serif;
+	font-weight: 600;
+}
+/*=== x =========== End Main Page (Topbar) Heading ========== x ===*/
+
+/*======== Start Carousel Post (Slider Card) Styling ===========*/
+#carousel{
+	margin-top: -8.2rem;
+	margin-bottom: 10rem;
+}
+#carousel h4{
+	font-family: 'Anton', sans-serif;
+	font-size: 1.1rem;
+}
+#carousel .carousel-item{
+	transition: transform 1.5s ease;
+}
+#carousel .carousel-item article{
+	box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+#carousel .carousel-item article:hover img{
+	transform: scale(1.1);
+}
+#carousel .carousel-item article .post-info{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	font-size: .6rem;
+}
+#carousel .carousel-item article p{
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: .9rem;
+	color: rgba(0,0,0,.5);
+	margin-bottom: .3rem;
+}
+#carousel .carousel-button a{
+	color: rgb(49,198,254);
+	font-size: 2rem;
+}
+#carousel .carousel-button a:hover{
+	color: #0340D4;
+}
+#carousel .carousel-indicators{
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	bottom: -1px;
+}
+#carousel .carousel-indicators li{
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    width: 18px;
+    height: 24px;
+    border-radius: 50%;
+    text-indent: 0;
+    padding: 4px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 11px;
+}
+/*=== x =========== End Carousel Post (Slider Card) Styling ========== x ===*/
+
+/*========== Start Blog Post/Main Post Content Section Styling ===========*/
+.main-content .post .post-img{
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 6px;
+	
+	
+	
+}
+
+
+.main-content .post .post-img img {
+    border-radius: 20px;
+	transition: 0.6s !important;
+}
+.main-content .post .post-img img:hover{
+	transform: scale(1.2);
+
+}
+.main-content .post .post-info{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    border-radius: 4rem;
+	margin-top: 5px;
+	font-weight: 500;
+}
+.main-content .post h2 a{
+	font-family: 'Anton', sans-serif;
+	font-size: 1.3rem;
+	color: #263238;
+}
+.main-content .pages a{
+	text-decoration: none;
+	margin: 0 0.3rem;
+	color: #fff;
+}
+.main-content .pages a.icon{
+	background-color: #263238;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+.main-content .pages a.page{
+	background-color: #263238;
+    padding: 6px 12px;
+    border-radius: 50%;
+}
+
+/*=========== Start Sidebar Content Styling ==============*/
+
+.sidebar .category-list a{
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	width: 100%;
+	margin: 10px;
+	padding: 8px 15px;
+	border-radius: 5rem;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	font-weight: 500;
+	color: #070E16;
+}
+.sidebar .popular-post figure{
+	overflow: hidden;
+}
+.sidebar .popular-post figure img:hover{
+	transform: scale(1.1);
+}
+.sidebar .popular-post figure{
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	padding: 5px;
+	border-radius: 8px;
+}
+.sidebar .popular-post figure figcaption{
+	color: #080F16;
+	margin-top: 8px;
+}
+.sidebar .popular-post h5 a{
+	font-family: 'Anton', sans-serif;
+	color: #263238;
+}
+.sidebar .get-in-touch{
+	box-sizing: content-box;
+}
+.sidebar .get-in-touch input{
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	height: calc(1.6em + 0.88rem + 3px);
+	border-radius: 50px;
+	padding: 0 10px;
+	outline: none;
+}
+.sidebar .get-in-touch textarea{
+	background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+	border-radius: 10px;
+	outline: none;
+	padding: 10px;
+}
+.sidebar .popular-tags a{
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	padding: 8px 15px;
+	border-radius: 5rem;
+	line-height: 2.5;
+	text-decoration: none;
+	font-weight: 500;
+	color: #070E16;
+}
+/*==== x ====== End Blog Post/Main Post Content Section Styling ==== x ===*/
+
+/*========== Start Footer Section Styling =========================*/
+#footer{
+	background-color: #263238;
+}
+#footer h3{
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 600;
+}
+#footer p,
+#footer a{
+	color: #b2b2b2;
+	font-size: .8rem;
+	text-decoration: none;
+}
+#footer .footer-form{
+  position: relative;
+}
+#footer .footer-form input[type=email]{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	border-radius: 50px;
+	height: calc(1.6em + 0.88rem + 3px);
+}
+#footer .footer-form input[type=email]::placeholder{
+	color: #fff;
+}
+#footer .footer-form button[type=submit] {
+    position: absolute;
+    top: 1px;
+    right: 8px;
+    padding: 7px 14px 7px 11px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #10E4FE;
+    background: #10E4FE;
+    color: #fff;
+}
+#footer .quick-link li a,
+#footer .legal-info li a{
+	color: #b2b2b2;
+	font-size: .8rem;
+	font-weight: 600;
+	text-decoration: none;
+	transition: all .15s ease-in;
+}
+#footer .quick-link ::marker,
+#footer .legal-info ::marker{
+	color: #16ffd8;
+}
+#footer .quick-link li a:hover,
+#footer .legal-info li a:hover{
+	padding-left: 3px;
+	color: #fff;
+}
+/*==================== Start Footer Bottom Content ======================*/
+
+#footer-navigation a{
+	font-family: 'Abel', sans-serif;
+	font-weight: 600;
+	font-size: .9rem;
+	margin: 0 .6rem;
+	text-decoration: none;
+	transform: translateX(1.1);
+}
+#footer-navigation a:hover{
+	color: #fff;
+}
+#footer .footer-social .nav-item .nav-link{
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+	color: #fff;
+}
+#footer .footer-social .nav-item .nav-link .fa-facebook-f{
+	padding: 5px 4px;
+}
+
+/*===== x ============ End Footer Section Styling ================ x =====*/
+
+/*======================== Start Media Queries ========================*/
+
+/* Device Under 768px (lg) */
+@media (max-width: 767.98px) {
+	.navbar{
+		background: #fff;
+	}
+}
+/* (Mobile Device Pixel Ratio - 2) (192dpi) */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+	.main-content .post .post-info{
+		font-size: .6rem;
+	}
+	#footer-navigation a{
+		margin: .2rem;
+	}
+}

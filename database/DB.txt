@@ -1,0 +1,17 @@
+users(id, username, email, password, token, status, role, created, updated, deleted)
+
+profile(id, userid, fname, mname, bg, dob, gender, padd,permadd, created, updated, deleted )
+
+category(id, name, created, deleted)
+
+
+tweet(id, uid, cid, title, details, image, privacy, status, created, deleted )
+
+comment(id, tid, uid, comment, created, deleted)
+
+reactions(tid,uid, reaction, created, deleted)
+
+tag(id, name, created, deleted)
+
+
+

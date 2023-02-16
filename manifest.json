@@ -1,0 +1,43 @@
+{
+    "short_name": "TweetBook",
+    "name": "Tweetbook From Round 45?",
+    "icons": [
+      {
+        "src": "/R45/PHP/classes/PROJECT/tweetbook/assets/img/icons.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/R45/PHP/classes/PROJECT/tweetbook/assets/img/icons.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/p/tweetbook/index.php",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "Tweetbook Home",
+        "short_name": "THome",
+        "description": "Home page of tweetbook",
+        "url": "/p/tweetbook/index.php",
+        "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+      }
+       ],
+    "description": "Blog Site",
+    "screenshots": [
+      {
+        "src": "/images/screenshot1.png",
+        "type": "image/png",
+        "sizes": "540x720"
+      },
+      {
+        "src": "/images/screenshot2.jpg",
+        "type": "image/jpg",
+        "sizes": "540x720"
+      }
+    ]
+  }

@@ -1,0 +1,34 @@
+SELECT `cid`, count(*) as total FROM `tweets` WHERE `privacy`='1' group by `cid`
+
+SELECT tweets.*, categories.name
+FROM tweets
+INNER JOIN categories ON tweets.cid=categories.id;
+
+SELECT tweets.`cid`, categories.name ,count(*) as total FROM `tweets` 
+inner join categories on tweets.cid=categories.id
+WHERE tweets.`privacy`='1' group by tweets.`cid`
+
+SELECT tweets.*,categories.name  FROM `tweets` 
+inner join categories on tweets.cid=categories.id
+WHERE tweets.privacy = '1' and tweets.cid=2 order by tweets.created desc LIMIT 0,10
+
+TODO: comments, reactions
+
+1 = like
+2 = dislike
+3 = love
+4 = Smail
+5 = Angry
+6 = Sad
+7 = HAHA
+8 = WOW
+9 = Care
+10= Kick
+11= Slap
+12= Cry
+13= dont care
+
+SELECT comments.*,users.username  FROM `comments` 
+inner join users on comments.uid=users.id
+WHERE comments.tid = '79' order by comments.created desc
+
